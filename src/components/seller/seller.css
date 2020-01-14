@@ -1,0 +1,14 @@
+.seller-content{
+    display: flex;
+    text-align: center;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.seller-content img{
+    width: 20rem;
+}
+
+.seller-item{
+    display: block;
+    margin: auto;
+}

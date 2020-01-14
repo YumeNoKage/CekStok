@@ -1,0 +1,18 @@
+.videoItem{
+    display: flex;
+    margin: 4rem 0;
+    background: linear-gradient(25deg, rgba(0, 68, 255, 0.415),rgba(243, 243, 77, 0.415));
+}
+
+.video-all{
+    margin: 2rem 6rem;
+    display: flex;
+}
+
+.descrip{
+    padding-right: 2rem ;
+}
+
+video{
+    border-radius: 10px;
+}

@@ -1,0 +1,36 @@
+.fitur{
+    margin: 6rem 6rem 3rem 6rem
+}
+.cardItem{
+    margin: auto;
+    width: 8rem;
+}
+.cardList {
+    display: flex; 
+    margin: auto;
+}
+.discrib{
+    margin:  auto;
+}
+.cardItem img {
+    width: 8rem;
+}
+
+.cardItem p{
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: -15px;
+}
+h2 , h3{
+    text-align: center;
+}
+
+.right-arrow{
+    width: 2rem;
+}
+
+hr.line{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 3rem;
+}

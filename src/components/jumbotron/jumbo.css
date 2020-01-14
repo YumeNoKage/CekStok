@@ -1,0 +1,39 @@
+.jumboItem{
+    display: flex;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 3rem;
+}
+.title{
+    margin: auto;
+}
+.title p{
+    padding-right: 15rem;
+}
+.title h1{
+    padding-right: 10rem;
+}
+
+.btn-banner{
+    margin: auto 0;
+    margin-top: 2rem;
+}
+
+button{
+    border: none;
+    background-color: rgb(0, 89, 255);
+    margin: auto;
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.banner img{
+    width: 80%;
+}
+
+.banner{
+    margin: auto;
+    margin-left: -10rem;
+}

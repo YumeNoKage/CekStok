@@ -1,0 +1,41 @@
+div.navItem{
+    box-shadow: 0px 6px 10x #252525
+}
+
+.navItem{
+    display: flex;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.nav{
+    margin-left: auto;
+    display: flex;
+    padding: 20px 0 20px 0;
+}
+
+.image{
+    margin: auto 0;
+}
+.image img{
+    width: 10rem;
+}
+.navLink{
+    margin: auto 1.3rem auto 1.3rem;
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    margin: auto 0;
+}
+
+button{
+    border: none;
+    background-color: rgb(0, 89, 255);
+    margin: auto;
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
