@@ -15,7 +15,7 @@ class Video extends React.Component{
                             </div>
                         </div>
                         <div className="video"> 
-                            <video width="550" height="300" controls>
+                            <video width="613" height="350" controls>
                                 <source src="" type="video/mp4" />
                             </video>
                         </div>
