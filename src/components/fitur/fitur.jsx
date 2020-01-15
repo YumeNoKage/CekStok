@@ -26,7 +26,7 @@ class Fitur extends React.Component{
                         <img src="https://image.flaticon.com/icons/svg/482/482615.svg" className="right-arrow" alt="right-arrow"></img>
                         <Card image="https://image.flaticon.com/icons/svg/1818/1818983.svg" title="Pilih Tampilan" desc="toko onlinemu" />
                         <img src="https://image.flaticon.com/icons/svg/482/482615.svg" className="right-arrow" alt="right-arrow"></img>
-                        <Card image="https://image.flaticon.com/icons/svg/1819/1819042.svg" title="Yeay!" desc="kamu punya totko online baru" />
+                        <Card image="https://image.flaticon.com/icons/svg/1819/1819042.svg" title="Yeay!" desc="kamu punya toko online baru" />
                     </div>
                 </div>
                 <hr className="line"/>
