@@ -7,7 +7,7 @@ import Seller from './components/seller/seller';
 import Video from './components/liveVideo/video';
 import Data from './components/testimoni/testimoni';
 import Blog from './components/blog/blog';
-
+import Support from './components/support/support';
 
 class App extends React.Component {
   render(){
@@ -22,6 +22,7 @@ class App extends React.Component {
           <Video />
           <Data/>
           <Blog/>
+          <Support/>
       </>
     );
   }

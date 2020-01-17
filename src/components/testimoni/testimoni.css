@@ -42,4 +42,9 @@
 
 .comment{
     word-wrap: break-word;
+    text-align: center;
+}
+
+.comment strong{
+    font-weight: 900;
 }

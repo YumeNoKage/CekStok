@@ -29,11 +29,11 @@ class Data extends React.Component {
                             <div className="user">
                                 <img src={`https://robohash.org/${data.id}?set=set2`} alt="Profile"></img>
                                 <div className="identity">
-                                    <h2>{data.name}</h2>
+                                    <h3>{data.name}</h3>
                                     <h5>{data.email}</h5>
                                 </div>
                             </div>
-                            <div className="comment">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum quos aut temporibus repellendus omnis voluptate.</div>
+                            <div className="comment"><strong>"</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum quos aut temporibus repellendus omnis voluptate.<strong>"</strong></div>
                         </div>
                     ))}
                 </div>
