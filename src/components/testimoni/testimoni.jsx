@@ -18,14 +18,14 @@ class Data extends React.Component {
     render (){
         const item = this.state.data;
         return(<>
-            <div className="testimoni-title">
+            {/* <div className="testimoni-title">
                 <h3>Testimoni</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-            </div>
-            <div className="card-all">
-                <div className="card-item">
+            </div> */}
+            {/* <div className="card-all"> */}
+                {/* <div className="card-item"> */}
                     {item.map(data =>(
-                        <div className="card">
+                        <div className="card swiper-slide" data-swiper-slide-index={data.id}>
                             <div className="user">
                                 <img src={`https://robohash.org/${data.id}?set=set2`} alt="Profile"></img>
                                 <div className="identity">
@@ -36,8 +36,8 @@ class Data extends React.Component {
                             <div className="comment"><strong>"</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum quos aut temporibus repellendus omnis voluptate.<strong>"</strong></div>
                         </div>
                     ))}
-                </div>
-            </div>
+                {/* </div> */}
+            {/* </div> */}
         </>
         );
     }
