@@ -29,7 +29,7 @@ class Blog extends React.Component{
         const data = this.state.properti;
         return(
             <>
-                <div className="empety"><p>code in blog</p></div>
+                {/* <div className="empety"><p>code in blog</p></div> */}
                 <div className="blog-title">
                     <h2>Blog</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>

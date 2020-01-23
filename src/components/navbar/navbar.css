@@ -1,11 +1,17 @@
 div.navItem{
-    box-shadow: 0px 6px 10x #252525
+    box-shadow: 0px 6px 10x #252525;
+}
+
+#navi{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .navItem{
     display: flex;
-    margin-left: 6rem;
-    margin-right: 6rem;
 }
 
 .nav{

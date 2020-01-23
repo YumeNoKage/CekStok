@@ -1,14 +1,27 @@
 .seller-content{
     display: flex;
     text-align: center;
-    margin-left: 6rem;
-    margin-right: 6rem;
+
 }
-.seller-content img{
-    width: 20rem;
+.seller-content svg{
+    width: 100%;
+}
+.seller-content hr{
+    border-left: 1px solid rgba(0,0,0,.1);
+    height: auto;
 }
 
 .seller-item{
     display: block;
     margin: auto;
+}
+
+.seller-item p{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.seller-item:nth-child(1) p{
+    margin-top: -3rem; 
+    margin-bottom: 2rem;
 }

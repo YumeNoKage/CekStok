@@ -1,11 +1,9 @@
 .jumboItem{
     display: flex;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 .title{
-    margin: auto;
+    margin: 3rem auto auto auto;
 }
 .title p{
     padding-right: 15rem;
@@ -29,8 +27,8 @@ button{
     font-weight: 600;
 }
 
-.banner img{
-    width: 80%;
+.banner svg{
+    margin-top: -7rem;
 }
 
 .banner{

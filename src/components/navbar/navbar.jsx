@@ -8,19 +8,21 @@ function NavItem (props){
 class Navbar extends React.Component{
     render(){
         return(
-            <div className="navItem">
-                <div className="image">
-                    <img src="https://cekstok.com/static/images/cekstok.svg" alt="Logo"></img>
-                </div>
-                <div className="nav">
-                    <NavItem  link = "!" name = "Home" />
-                    <NavItem  link = "!!" name = "News" />
-                    <NavItem  link = "!!!" name = "Item" />
-                    <NavItem  link = "!!!!" name = "About" />
-                    <NavItem  link = "!!!!!" name = "Contact Us" />
-                </div>
-                <div className="btn">
-                    <button type="submit">DAPATKAN TOKO ONLINEMU SEKARANG</button>
+            <div className="container">
+                <div className="navItem">
+                    <div className="image">
+                        <img src="https://cekstok.com/static/images/cekstok.svg" alt="Logo"></img>
+                    </div>
+                    <div className="nav">
+                        <NavItem  link = "!" name = "Home" />
+                        <NavItem  link = "!!" name = "News" />
+                        <NavItem  link = "!!!" name = "Item" />
+                        <NavItem  link = "!!!!" name = "About" />
+                        <NavItem  link = "!!!!!" name = "Contact Us" />
+                    </div>
+                    <div className="btn">
+                        <button type="submit">DAPATKAN TOKO ONLINEMU SEKARANG</button>
+                    </div>
                 </div>
             </div>
         );

@@ -6,7 +6,7 @@ class Video extends React.Component{
         return (
             <>
                 <div className="videoItem">
-                    <div className="video-all">     
+                    <div className="video-all container">     
                         <div className="descrip">
                             <h1>Lorem Ipsum</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem commodi unde neque aliquid soluta, nam aut autem quas illum facilis debitis quae, omnis ea? Illo quis praesentium doloremque delectus porro obcaecati natus, dolores minus voluptatem at nemo blanditiis adipisci ad! Modi nam dolorem omnis, eaque corporis temporibus quo culpa itaque.</p>

@@ -1,0 +1,79 @@
+.footer-body{
+    background: #263238;
+    color: #90A4AE;
+}
+
+.footer-item{
+    display: flex;
+}
+.footer-left{
+    width: 20rem;
+    margin-top: 3rem;
+}
+.footer-left .icon {
+    margin-top: 2rem;
+    display: flex;
+}
+.footer-left .icon svg {
+    margin-right: 20px;
+}
+.footer-left img{
+    width: 10rem;
+    margin: 1rem 0;
+}
+
+.footer-midle, .footer-right{
+    display: block;
+    margin-top: 5rem;
+}
+
+.footer-midle ul, .footer-right ul{
+    margin-left: -2.5rem;
+}
+.footer-midle{
+    margin-left: 13rem;
+}
+
+.footer-midle .faqs ul,li,a {
+    text-decoration: none;
+    color: #90A4AE;
+    list-style-type:none ;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.footer-midle .faqs ul,li,a:hover {
+    text-decoration: none;
+    color: #90A4AE;
+    list-style-type:none ;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.footer-right .blog-post ul li,a {
+    text-decoration: none;
+    color: #90A4AE;
+    list-style-type:none ;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.footer-right .blog-post ul,li,a:hover {
+    text-decoration: none;
+    color: #90A4AE;
+    list-style-type:none ;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.footer-item h4{
+    color: white;
+}
+
+hr.footer-line{
+    border-top: 1px solid #90A4AE;
+    margin-bottom: 0 !important;
+}
+
+p.copy{
+    padding-bottom: 4rem;
+    margin-bottom: 0 !important;
+}

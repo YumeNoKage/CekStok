@@ -5,7 +5,8 @@
 }
 
 .video-all{
-    margin: 2rem 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
 }
 
